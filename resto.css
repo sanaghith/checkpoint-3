@@ -1,0 +1,43 @@
+.col-7{
+    color: palevioletred;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+ padding-right: 20px !important;
+}
+
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+hero{
+    height:580px;
+    display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction: column;
+   background-image: url(https://www.ensh.eu/wp-content/uploads/2022/06/agence-voyage-1024x670.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+    color: palevioletred!important;
+    text-decoration: none !important;
+}
+.button{
+    background-color: pink;
+    padding-bottom: 40px;
+    padding-top:40px;
+    height: 30px;
+    width: 60px;
+}
+.destination{
+display: inline;    
+color: bisque;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+     /* margin-top: 150px; */}
